@@ -20,7 +20,7 @@ transactionRoutes.post(
  */
 
 transactionRoutes.post(
-  "/system/intial-funds",
+  "/system/initial-funds",
   authMiddleware.authSystemUserMiddleware,
   transactionController.createInitialFundsTransaction,
 );
